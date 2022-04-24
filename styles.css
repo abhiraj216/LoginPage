@@ -1,0 +1,57 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/pic2.jpg);
+  /* background-image: url(img/hero.jpg); */
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.loginbox {
+  width: 320px;
+  height: 400px;
+  background: #000;
+  color: #fff;
+  top: 10%;
+  left: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  transform: translate(-50%, 50%);
+  padding: 70px 30px;
+}
+
+img {
+  border-radius: 60% !important;
+  top: -50px;
+  left: 100px;
+  position: absolute;
+  position: calc(60% - 50px);
+}
+.loginbox label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+}
+.loginbox input[type="submit"] {
+  border-radius: 20px;
+}
+h1 {
+  font-size: 22px;
+  text-align: center;
+}
